@@ -1,0 +1,14 @@
+1) npx create-expo-app@latest . --template blank
+    npm start // no funciona para web
+    control c para salir
+2) npx expo install react-dom react-native-web @expo/metro-runtime
+    o
+   npm install react-dom react-native-web @expo/metro-runtime --force
+   
+
+    npm start  // ahora si funciona para we
+    presiona w
+
+
+3)  npm install @react-navigation/native --force
+    npm install @react-navigation/native-stack --force
